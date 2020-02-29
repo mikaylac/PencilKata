@@ -11,7 +11,7 @@ public class PaperTest {
         paper.storeText(expectedStringToStore);
 
         String spaceBetweenStrings = " ";
-        assertEquals(expectedStringToStore + spaceBetweenStrings, paper.getText());
+        assertEquals(expectedStringToStore + spaceBetweenStrings, paper.getRawText());
     }
 
     @Test
@@ -24,7 +24,7 @@ public class PaperTest {
         paper.storeText(expectedString2);
 
         String spaceBetweenText = " ";
-        assertEquals(expectedString1 + spaceBetweenText + expectedString2 + spaceBetweenText, paper.getText());
+        assertEquals(expectedString1 + spaceBetweenText + expectedString2 + spaceBetweenText, paper.getRawText());
     }
 
 

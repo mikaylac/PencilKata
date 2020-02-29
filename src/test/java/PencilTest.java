@@ -15,7 +15,7 @@ public class PencilTest {
         pencil.write(expectedStringToStore);
 
         String blankSpace = " ";
-        assertEquals(expectedStringToStore + blankSpace, paper.getText());
+        assertEquals(expectedStringToStore + blankSpace, paper.getRawText());
     }
 
 }

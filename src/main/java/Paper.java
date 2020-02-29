@@ -8,7 +8,7 @@ public class Paper {
         this.storedText.add(stringToStore);
     }
 
-    public String getText() {
+    public String getRawText() {
         String rawText = "";
 
         for (String text : this.storedText) {
