@@ -1,19 +1,9 @@
-import java.util.ArrayList;
 
 public class Paper {
 
-    public ArrayList<String> storedText = new ArrayList<>();
+    public String writtenText;
 
-    public void storeText(String stringToStore) {
-        this.storedText.add(stringToStore);
-    }
-
-    public String getRawText() {
-        String rawText = "";
-
-        for (String text : this.storedText) {
-            rawText += text + " ";
-        }
-        return rawText;
+    public Paper(){
+        this.writtenText = "";
     }
 }
