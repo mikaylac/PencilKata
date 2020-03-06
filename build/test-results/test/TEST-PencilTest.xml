@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PencilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-05T00:33:00" hostname="Mikaylas-Razer-Blade" time="0.003">
+<testsuite name="PencilTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-06T19:48:59" hostname="Mikaylas-Razer-Blade" time="0.003">
   <properties/>
-  <testcase name="shouldAppendStringToPaperWhenWriteIsCalled" classname="PencilTest" time="0.003"/>
+  <testcase name="shouldDegradePointDurabilityByOneForEachLowerCaseLetter" classname="PencilTest" time="0.002"/>
+  <testcase name="shouldAppendStringToPaperWhenWriteIsCalled" classname="PencilTest" time="0.0"/>
+  <testcase name="shouldDegradePointDurabilityByTwoForEachUpperCaseLetter" classname="PencilTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
